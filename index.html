@@ -38,7 +38,7 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
 .matrix-table thead tr.hrow2 th{top:36px;z-index:2}
 .col-nature  {width:140px;min-width:140px;background:#1C2E5C;color:white;font-size:11px;text-align:center;padding:8px 6px}
 .col-profile {width:170px;min-width:170px;background:#2F5496;color:white;font-size:11px;padding:8px 6px}
-.col-corner  {background:#1C2E5C}
+.col-corner  {background:#1C2E5C;border-right:2px solid #fff}
 .group-header{text-align:center;font-weight:700;color:white;padding:7px 4px;font-size:12px}
 .group-el    {background:#2F5496}
 .group-doc   {background:#1a4a8a}
@@ -236,7 +236,7 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
 <div class="tab-content" id="tab1" style="display:none">
   <div class="info-banner">
     
-    🏢 <strong>43 companies</strong> have users with profiles under analysis. Sorted by number of impacted users.
+    🏢 <strong>43 companies</strong> have users with profiles under analysis. Sorted by number of impacted users. <strong style="color:#991B1B">Red ≥70%</strong> · <strong style="color:#92400E">Amber ≥30%</strong> · <strong style="color:#14532D">Green &lt;30%</strong>
   </div>
   <div class="search-bar">
     <input type="text" id="search1" oninput="filterTable('t1',this.value)" placeholder="Search company…">
@@ -989,10 +989,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:43%;background:#F59E0B"></div></div><span class="gauge-lbl">43%</span></div></td>
   <td class="num text-green">10</td>
   <td class="num text-red">13</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment;powered systems</td>
-  <td class="src-cell">behaviours;confined spaces;excavation works;golden rules;hot works;lifting operations;powered systems;protective equipment;work at height</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer;electrical work certification</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment ; powered systems</td>
+  <td class="src-cell">behaviours ; confined spaces ; excavation works ; golden rules ; hot works ; lifting operations ; powered systems ; protective equipment ; work at height</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer ; electrical work certification</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="chip chip-add">electrical work certification</span></td>
   <td class="chips-cell"><span class="chip chip-rem">confined spaces</span><span class="chip chip-rem">excavation works</span><span class="chip chip-rem">hot works</span><span class="chip chip-rem">lifting operations</span><span class="chip chip-rem">work at height</span></td>
@@ -1006,10 +1006,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:86%;background:#16A34A"></div></div><span class="gauge-lbl">86%</span></div></td>
   <td class="num text-green">56</td>
   <td class="num text-red">9</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
@@ -1023,10 +1023,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:83%;background:#16A34A"></div></div><span class="gauge-lbl">83%</span></div></td>
   <td class="num text-green">10</td>
   <td class="num text-red">2</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment;confined space work;hot works</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer;gas measurement specialist training</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment ; confined space work ; hot works</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer ; gas measurement specialist training</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="chip chip-add">confined space work</span><span class="chip chip-add">hot works</span></td>
   <td class="chips-cell"><span class="chip chip-add">gas measurement specialist training</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
@@ -1040,10 +1040,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:0%;background:#DC2626"></div></div><span class="gauge-lbl">0%</span></div></td>
   <td class="num text-green">1</td>
   <td class="num text-red">6</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment;lifting operations</td>
-  <td class="src-cell">behaviours;confined spaces;excavation works;golden rules;hot works;lifting operations;powered systems;protective equipment;work at height</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer;caces or equivalent crane</td>
-  <td class="src-cell">crane operation authorization;identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment ; lifting operations</td>
+  <td class="src-cell">behaviours ; confined spaces ; excavation works ; golden rules ; hot works ; lifting operations ; powered systems ; protective equipment ; work at height</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer ; caces or equivalent crane</td>
+  <td class="src-cell">crane operation authorization ; identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="chip chip-add">caces or equivalent crane</span></td>
   <td class="chips-cell"><span class="chip chip-rem">confined spaces</span><span class="chip chip-rem">excavation works</span><span class="chip chip-rem">hot works</span><span class="chip chip-rem">powered systems</span><span class="chip chip-rem">work at height</span></td>
@@ -1057,10 +1057,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:56%;background:#F59E0B"></div></div><span class="gauge-lbl">56%</span></div></td>
   <td class="num text-green">10</td>
   <td class="num text-red">8</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
-  <td class="src-cell">identity document;light vehicle driving license;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
+  <td class="src-cell">identity document ; light vehicle driving license ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
@@ -1074,10 +1074,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:57%;background:#F59E0B"></div></div><span class="gauge-lbl">57%</span></div></td>
   <td class="num text-green">29</td>
   <td class="num text-red">22</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment;powered systems</td>
-  <td class="src-cell">behaviours;confined spaces;excavation works;golden rules;hot works;lifting operations;powered systems;protective equipment;work at height</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer;electrical work certification</td>
-  <td class="src-cell">electrical authorization;identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment ; powered systems</td>
+  <td class="src-cell">behaviours ; confined spaces ; excavation works ; golden rules ; hot works ; lifting operations ; powered systems ; protective equipment ; work at height</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer ; electrical work certification</td>
+  <td class="src-cell">electrical authorization ; identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="chip chip-add">electrical work certification</span></td>
   <td class="chips-cell"><span class="chip chip-rem">confined spaces</span><span class="chip chip-rem">excavation works</span><span class="chip chip-rem">hot works</span><span class="chip chip-rem">lifting operations</span><span class="chip chip-rem">work at height</span></td>
@@ -1091,10 +1091,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:0%;background:#DC2626"></div></div><span class="gauge-lbl">0%</span></div></td>
   <td class="num text-green">1</td>
   <td class="num text-red">1</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment;powered systems</td>
-  <td class="src-cell">behaviours;confined spaces;excavation works;golden rules;hot works;lifting operations;powered systems;protective equipment;work at height</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer;electrical work certification</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment ; powered systems</td>
+  <td class="src-cell">behaviours ; confined spaces ; excavation works ; golden rules ; hot works ; lifting operations ; powered systems ; protective equipment ; work at height</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer ; electrical work certification</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="chip chip-add">electrical work certification</span></td>
   <td class="chips-cell"><span class="chip chip-rem">confined spaces</span><span class="chip chip-rem">excavation works</span><span class="chip chip-rem">hot works</span><span class="chip chip-rem">lifting operations</span><span class="chip chip-rem">work at height</span></td>
@@ -1108,10 +1108,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:65%;background:#F59E0B"></div></div><span class="gauge-lbl">65%</span></div></td>
   <td class="num text-green">15</td>
   <td class="num text-red">8</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
@@ -1125,10 +1125,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:0%;background:#9CA3AF"></div></div><span class="gauge-lbl">N/A</span></div></td>
   <td class="num text-green">0</td>
   <td class="num text-red">0</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment;lifting operations</td>
-  <td class="src-cell">behaviours;confined spaces;excavation works;golden rules;hot works;lifting operations;powered systems;protective equipment;work at height</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer;forklift operating licence</td>
-  <td class="src-cell">forklift operation authorization;identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment ; lifting operations</td>
+  <td class="src-cell">behaviours ; confined spaces ; excavation works ; golden rules ; hot works ; lifting operations ; powered systems ; protective equipment ; work at height</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer ; forklift operating licence</td>
+  <td class="src-cell">forklift operation authorization ; identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="chip chip-add">forklift operating licence</span></td>
   <td class="chips-cell"><span class="chip chip-rem">confined spaces</span><span class="chip chip-rem">excavation works</span><span class="chip chip-rem">hot works</span><span class="chip chip-rem">powered systems</span><span class="chip chip-rem">work at height</span></td>
@@ -1142,10 +1142,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:0%;background:#DC2626"></div></div><span class="gauge-lbl">0%</span></div></td>
   <td class="num text-green">68</td>
   <td class="num text-red">26</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment;confined space work;powered systems;powered systems mechanical;excavation works;work at height;hot works;lifting operations</td>
-  <td class="src-cell">behaviours;confined spaces;excavation works;golden rules;hot works;lifting operations;powered systems;protective equipment;work at height;works management</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment ; confined space work ; powered systems ; powered systems mechanical ; excavation works ; work at height ; hot works ; lifting operations</td>
+  <td class="src-cell">behaviours ; confined spaces ; excavation works ; golden rules ; hot works ; lifting operations ; powered systems ; protective equipment ; work at height ; works management</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="chip chip-add">confined space work</span><span class="chip chip-add">powered systems mechanical</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="chip chip-rem">confined spaces</span><span class="chip chip-rem">works management</span></td>
@@ -1159,10 +1159,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:100%;background:#16A34A"></div></div><span class="gauge-lbl">100%</span></div></td>
   <td class="num text-green">1</td>
   <td class="num text-red">0</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment;work at height</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment ; work at height</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="chip chip-add">work at height</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
@@ -1176,10 +1176,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:79%;background:#16A34A"></div></div><span class="gauge-lbl">79%</span></div></td>
   <td class="num text-green">148</td>
   <td class="num text-red">39</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
@@ -1193,10 +1193,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:79%;background:#16A34A"></div></div><span class="gauge-lbl">79%</span></div></td>
   <td class="num text-green">137</td>
   <td class="num text-red">37</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
@@ -1210,10 +1210,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:100%;background:#16A34A"></div></div><span class="gauge-lbl">100%</span></div></td>
   <td class="num text-green">8</td>
   <td class="num text-red">0</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
@@ -1227,10 +1227,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:91%;background:#16A34A"></div></div><span class="gauge-lbl">91%</span></div></td>
   <td class="num text-green">43</td>
   <td class="num text-red">4</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment;powered systems;powered systems mechanical</td>
-  <td class="src-cell">behaviours;confined spaces;excavation works;golden rules;hot works;lifting operations;powered systems;protective equipment;work at height</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer;electrical work certification</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment ; powered systems ; powered systems mechanical</td>
+  <td class="src-cell">behaviours ; confined spaces ; excavation works ; golden rules ; hot works ; lifting operations ; powered systems ; protective equipment ; work at height</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer ; electrical work certification</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="chip chip-add">powered systems mechanical</span></td>
   <td class="chips-cell"><span class="chip chip-add">electrical work certification</span></td>
   <td class="chips-cell"><span class="chip chip-rem">confined spaces</span><span class="chip chip-rem">excavation works</span><span class="chip chip-rem">hot works</span><span class="chip chip-rem">lifting operations</span><span class="chip chip-rem">work at height</span></td>
@@ -1244,10 +1244,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:0%;background:#9CA3AF"></div></div><span class="gauge-lbl">N/A</span></div></td>
   <td class="num text-green">0</td>
   <td class="num text-red">0</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment;work at height</td>
-  <td class="src-cell">behaviours;confined spaces;excavation works;golden rules;hot works;lifting operations;powered systems;protective equipment;work at height</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer;mewp caces operating licence</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer;mewp operation authorization</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment ; work at height</td>
+  <td class="src-cell">behaviours ; confined spaces ; excavation works ; golden rules ; hot works ; lifting operations ; powered systems ; protective equipment ; work at height</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer ; mewp caces operating licence</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer ; mewp operation authorization</td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="chip chip-add">mewp caces operating licence</span></td>
   <td class="chips-cell"><span class="chip chip-rem">confined spaces</span><span class="chip chip-rem">excavation works</span><span class="chip chip-rem">hot works</span><span class="chip chip-rem">lifting operations</span><span class="chip chip-rem">powered systems</span></td>
@@ -1261,10 +1261,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:86%;background:#16A34A"></div></div><span class="gauge-lbl">86%</span></div></td>
   <td class="num text-green">50</td>
   <td class="num text-red">8</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
@@ -1278,10 +1278,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:70%;background:#16A34A"></div></div><span class="gauge-lbl">70%</span></div></td>
   <td class="num text-green">86</td>
   <td class="num text-red">37</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
@@ -1295,10 +1295,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:0%;background:#DC2626"></div></div><span class="gauge-lbl">0%</span></div></td>
   <td class="num text-green">0</td>
   <td class="num text-red">2</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
@@ -1312,10 +1312,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:84%;background:#16A34A"></div></div><span class="gauge-lbl">84%</span></div></td>
   <td class="num text-green">21</td>
   <td class="num text-red">4</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment;powered systems;work at height</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer;electrical work certification</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment ; powered systems ; work at height</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer ; electrical work certification</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="chip chip-add">powered systems</span><span class="chip chip-add">work at height</span></td>
   <td class="chips-cell"><span class="chip chip-add">electrical work certification</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
@@ -1329,10 +1329,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:78%;background:#16A34A"></div></div><span class="gauge-lbl">78%</span></div></td>
   <td class="num text-green">7</td>
   <td class="num text-red">2</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment;work at height</td>
-  <td class="src-cell">behaviours;confined spaces;excavation works;golden rules;hot works;lifting operations;powered systems;protective equipment;work at height</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer;scaffold erector/dismantler certification</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer;scaffolding assembly authorization</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment ; work at height</td>
+  <td class="src-cell">behaviours ; confined spaces ; excavation works ; golden rules ; hot works ; lifting operations ; powered systems ; protective equipment ; work at height</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer ; scaffold erector/dismantler certification</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer ; scaffolding assembly authorization</td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="chip chip-add">scaffold erector/dismantler certification</span></td>
   <td class="chips-cell"><span class="chip chip-rem">confined spaces</span><span class="chip chip-rem">excavation works</span><span class="chip chip-rem">hot works</span><span class="chip chip-rem">lifting operations</span><span class="chip chip-rem">powered systems</span></td>
@@ -1346,10 +1346,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:67%;background:#F59E0B"></div></div><span class="gauge-lbl">67%</span></div></td>
   <td class="num text-green">2</td>
   <td class="num text-red">1</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment;work at height</td>
-  <td class="src-cell">excavation works;hot works;lifting operations;powered systems;protective equipment;work at height</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer;scaffolding inspector authorization</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment ; work at height</td>
+  <td class="src-cell">excavation works ; hot works ; lifting operations ; powered systems ; protective equipment ; work at height</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer ; scaffolding inspector authorization</td>
   <td class="chips-cell"><span class="chip chip-add">behaviours</span><span class="chip chip-add">golden rules</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="chip chip-rem">excavation works</span><span class="chip chip-rem">hot works</span><span class="chip chip-rem">lifting operations</span><span class="chip chip-rem">powered systems</span></td>
@@ -1364,9 +1364,9 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td class="num text-green">15</td>
   <td class="num text-red">8</td>
   <td class="src-cell">—</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
   <td class="src-cell">—</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="chip chip-rem">behaviours</span><span class="chip chip-rem">golden rules</span><span class="chip chip-rem">protective equipment</span></td>
@@ -1380,10 +1380,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:66%;background:#F59E0B"></div></div><span class="gauge-lbl">66%</span></div></td>
   <td class="num text-green">114</td>
   <td class="num text-red">59</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment;confined space work;powered systems;powered systems mechanical;excavation works;work at height;hot works;lifting operations</td>
-  <td class="src-cell">behaviours;confined spaces;excavation works;golden rules;hot works;lifting operations;powered systems;protective equipment;work at height;works management</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment ; confined space work ; powered systems ; powered systems mechanical ; excavation works ; work at height ; hot works ; lifting operations</td>
+  <td class="src-cell">behaviours ; confined spaces ; excavation works ; golden rules ; hot works ; lifting operations ; powered systems ; protective equipment ; work at height ; works management</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="chip chip-add">confined space work</span><span class="chip chip-add">powered systems mechanical</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="chip chip-rem">confined spaces</span><span class="chip chip-rem">works management</span></td>
@@ -1397,10 +1397,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:100%;background:#16A34A"></div></div><span class="gauge-lbl">100%</span></div></td>
   <td class="num text-green">4</td>
   <td class="num text-red">0</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment;confined space work;powered systems;powered systems mechanical;excavation works;work at height;hot works;lifting operations</td>
-  <td class="src-cell">behaviours;confined spaces;excavation works;golden rules;hot works;lifting operations;powered systems;protective equipment;work at height;works management</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment ; confined space work ; powered systems ; powered systems mechanical ; excavation works ; work at height ; hot works ; lifting operations</td>
+  <td class="src-cell">behaviours ; confined spaces ; excavation works ; golden rules ; hot works ; lifting operations ; powered systems ; protective equipment ; work at height ; works management</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="chip chip-add">confined space work</span><span class="chip chip-add">powered systems mechanical</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="chip chip-rem">confined spaces</span><span class="chip chip-rem">works management</span></td>
@@ -1415,9 +1415,9 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td class="num text-green">12</td>
   <td class="num text-red">7</td>
   <td class="src-cell">—</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
   <td class="src-cell">—</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="chip chip-rem">behaviours</span><span class="chip chip-rem">golden rules</span><span class="chip chip-rem">protective equipment</span></td>
@@ -1432,9 +1432,9 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td class="num text-green">0</td>
   <td class="num text-red">0</td>
   <td class="src-cell">—</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
   <td class="src-cell">—</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="chip chip-rem">behaviours</span><span class="chip chip-rem">golden rules</span><span class="chip chip-rem">protective equipment</span></td>
@@ -1448,10 +1448,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:67%;background:#F59E0B"></div></div><span class="gauge-lbl">67%</span></div></td>
   <td class="num text-green">257</td>
   <td class="num text-red">126</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment;powered systems;powered systems mechanical;excavation works;work at height;hot works;lifting operations</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment ; powered systems ; powered systems mechanical ; excavation works ; work at height ; hot works ; lifting operations</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="chip chip-add">powered systems</span><span class="chip chip-add">powered systems mechanical</span><span class="chip chip-add">excavation works</span><span class="chip chip-add">work at height</span><span class="chip chip-add">hot works</span><span class="chip chip-add">lifting operations</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
@@ -1465,10 +1465,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:100%;background:#16A34A"></div></div><span class="gauge-lbl">100%</span></div></td>
   <td class="num text-green">1</td>
   <td class="num text-red">0</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment;powered systems;powered systems mechanical;excavation works;work at height;hot works;lifting operations</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment ; powered systems ; powered systems mechanical ; excavation works ; work at height ; hot works ; lifting operations</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="chip chip-add">powered systems</span><span class="chip chip-add">powered systems mechanical</span><span class="chip chip-add">excavation works</span><span class="chip chip-add">work at height</span><span class="chip chip-add">hot works</span><span class="chip chip-add">lifting operations</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
@@ -1482,10 +1482,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:40%;background:#F59E0B"></div></div><span class="gauge-lbl">40%</span></div></td>
   <td class="num text-green">2</td>
   <td class="num text-red">3</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment</td>
-  <td class="src-cell">behaviours;confined spaces;excavation works;golden rules;hot works;lifting operations;powered systems;protective equipment;work at height</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer;heavy vehicle driving licence</td>
-  <td class="src-cell">heavy vehicle driving license;identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment</td>
+  <td class="src-cell">behaviours ; confined spaces ; excavation works ; golden rules ; hot works ; lifting operations ; powered systems ; protective equipment ; work at height</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer ; heavy vehicle driving licence</td>
+  <td class="src-cell">heavy vehicle driving license ; identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="chip chip-add">heavy vehicle driving licence</span></td>
   <td class="chips-cell"><span class="chip chip-rem">confined spaces</span><span class="chip chip-rem">excavation works</span><span class="chip chip-rem">hot works</span><span class="chip chip-rem">lifting operations</span><span class="chip chip-rem">powered systems</span><span class="chip chip-rem">work at height</span></td>
@@ -1499,10 +1499,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:73%;background:#16A34A"></div></div><span class="gauge-lbl">73%</span></div></td>
   <td class="num text-green">69</td>
   <td class="num text-red">26</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment;hot works</td>
-  <td class="src-cell">behaviours;confined spaces;excavation works;golden rules;hot works;lifting operations;powered systems;protective equipment;work at height</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer;welder certification</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment ; hot works</td>
+  <td class="src-cell">behaviours ; confined spaces ; excavation works ; golden rules ; hot works ; lifting operations ; powered systems ; protective equipment ; work at height</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer ; welder certification</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="chip chip-add">welder certification</span></td>
   <td class="chips-cell"><span class="chip chip-rem">confined spaces</span><span class="chip chip-rem">excavation works</span><span class="chip chip-rem">lifting operations</span><span class="chip chip-rem">powered systems</span><span class="chip chip-rem">work at height</span></td>
@@ -1516,10 +1516,10 @@ body{font-family:"DM Sans",sans-serif;background:#F3F4F6;color:#111827}
   <td><div class="gauge-wrap"><div class="gauge-track"><div class="gauge-bar" style="width:100%;background:#16A34A"></div></div><span class="gauge-lbl">100%</span></div></td>
   <td class="num text-green">2</td>
   <td class="num text-red">0</td>
-  <td class="src-cell">behaviours;golden rules;protective equipment;hot works</td>
-  <td class="src-cell">behaviours;confined spaces;excavation works;golden rules;hot works;lifting operations;powered systems;protective equipment;work at height</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer;welder certification</td>
-  <td class="src-cell">identity document;medical fitness declaration by the employer</td>
+  <td class="src-cell">behaviours ; golden rules ; protective equipment ; hot works</td>
+  <td class="src-cell">behaviours ; confined spaces ; excavation works ; golden rules ; hot works ; lifting operations ; powered systems ; protective equipment ; work at height</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer ; welder certification</td>
+  <td class="src-cell">identity document ; medical fitness declaration by the employer</td>
   <td class="chips-cell"><span class="none-chip">—</span></td>
   <td class="chips-cell"><span class="chip chip-add">welder certification</span></td>
   <td class="chips-cell"><span class="chip chip-rem">confined spaces</span><span class="chip chip-rem">excavation works</span><span class="chip chip-rem">lifting operations</span><span class="chip chip-rem">powered systems</span><span class="chip chip-rem">work at height</span></td>
